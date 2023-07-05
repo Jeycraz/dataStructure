@@ -38,5 +38,5 @@ function validAnagram(str1,str2){
     }
     return true
   }
-  console.log(validAnagram("aaz","zza"))
+  console.log(validAnagram("azz","zza"))
   

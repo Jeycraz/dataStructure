@@ -6,6 +6,7 @@ function countUniqueValues(arr){
         if(arr[j] !== arr[i]){
             i++
             arr[i] = arr[j]
+            console.log(arr[i])
         }    
     }
     console.log(i+1)
